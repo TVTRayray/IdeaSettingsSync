@@ -1,0 +1,8 @@
+<templateSet group="Java">
+  <template name="stm" value="$element$.stream().map(Integer::parseInt).collect(Collectors.toList())" description="convert String List to Integer List" toReformat="false" toShortenFQNames="true">
+    <variable name="element" expression="variableOfType(&quot;java.util.Collection&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
